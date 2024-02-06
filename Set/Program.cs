@@ -1,18 +1,16 @@
-﻿using System;
-using Node;
-
-namespace Set{
-	public class Set<IComparable>{
-		public List<IComparable> set;
+﻿namespace Set{
+	public class Set<Element> where Element : IComparable{
+		public List<Element> set;
 
 
 		public Set(){
-			set = new List<IComparable>();
+			set = new List<Element>();
 		}
 
-		public Set(List<IComparable> set){
+		public Set(List<Element> set){
 			this.set = set;
 		}
 
+		
 	}
 }
