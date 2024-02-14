@@ -13,7 +13,6 @@
 
 
 		//NOTE - Add functions here
-		//
 
 	}
 }
