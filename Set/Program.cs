@@ -11,6 +11,9 @@
 			this.set = set;
 		}
 
-		
+
+		//NOTE - Add functions here
+		//
+
 	}
 }
