@@ -5,3 +5,4 @@
 *.pdb
 *.cache
 .DS_Store
+.fake
